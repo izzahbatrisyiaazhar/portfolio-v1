@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Izzah Batrisyia: Software Engineering Fresh Graduate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Izzah Batrisyia</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills & Tools</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Izzah Batrisyia</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="#experience" onclick="toggleMenu()">Skills & Tools</a>
+          </li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic-3.png" alt="Izzah profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Izzah Batrisyia</h1>
+        <p class="section__text__p2">Software Engineering Fresh Graduate</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-izzahbatrisyia.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/izzah-batrisyia-a110b3274/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/izzahbatrisyiaazhar'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic-3.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>0.5 years <br />Frontend Development (Internship)</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Computer Science (Software Engineering)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hey there, I'm Izzah Batrisyia, your digital sorcerer
+              extraordinaire! With a Bachelor's degree in Software Engineering
+              from Tun Hussein Onn University of Malaysia (UTHM), I'm all about
+              conjuring up seamless user experiences and crafting code that's as
+              elegant as it is functional. <br /><br />
+              When I'm not lost in the digital labyrinth, you might just find me
+              kicking back and enjoying a good movie marathon. Whether it's
+              unraveling the mysteries of code or the mysteries of a gripping
+              plot, I dive in headfirst with passion and finesse! 🎥🌟
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills & Tools</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                  />
+                  <h4 class="mt-2">HTML</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                  />
+                  <h4 class="mt-2">CSS</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                  />
+                  <h4 class="mt-2">SASS</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  />
+                  <h4 class="mt-2">JavaScript</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                  />
+                  <h4 class="mt-2">TypeScript</h4>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <img src="./assets/logo.png" alt="John Doe profile picture" />
+                  <h4 class="mt-2">Core UI</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                  />
+                  <h4 class="mt-2">Figma</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                  />
+                  <h4 class="mt-2">React</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg"
+                  />
+                  <h4 class="mt-2">GitLab</h4>
+                </div>
+              </article>
+              <article>
+                <div class="icon-title">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                  />
+                  <h4 class="mt-2">VS Code</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Personal Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="card details-card">
+            <img src="./assets/1.png" class="card-pic" alt="..." ">
+            <div class="card-body">
+              <div class="pb-2 bg-transparent">
+                <span class="badge badge-light">JavaScript</span>
+                <span class="badge badge-light">CSS</span>
+                <span class="badge badge-light">PHP</span>
+                <span class="badge badge-light">MySQL</span>
+                <span class="badge badge-light">HTML</span>
+                <span class="badge badge-light">Bootstrap</span>
+              </div>
+              <h3 class="card-title">i-Care</h3>
+              <p class="card-text">
+                Introducing our game-changing platform: revolutionizing
+                emergency relief aid donations. Streamline giving, track
+                donations in real-time, and maximize impact. Join us in making a
+                difference where it's needed most.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <div class="btn-project">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/izzahbatrisyiaazhar/i-Care'"
+                >
+                  <i class="devicon-github-original project-btn-icon"></i>
+                  <span class="project-btn-name">Github Repo</span>
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1GuWEUCzlgpOFBLf-6G7a0dc1USdNlr_k/view?usp=drive_link'"
+                >
+                  <ion-icon name="videocam" class="project-btn-icon"></ion-icon>
+                  <span class="project-btn-name">Video Demo</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card details-card">
+            <img src="./assets/3.png" class="card-pic" alt="..." ">
+            <div class="card-body">
+              <div class="pb-2 bg-transparent">
+                <span class="badge badge-light">JavaScript</span>
+                <span class="badge badge-light">CSS</span>
+                <span class="badge badge-light">HTML</span>
+                <span class="badge badge-light">Bootstrap</span>
+              </div>
+              <h3 class="card-title">Groco</h3>
+              <p class="card-text">
+                Welcome to GroCo, where grocery shopping meets delight! Dive
+                into a world of fresh and organic goodies right at your
+                fingertips. Say goodbye to long lines and hello to hassle-free
+                shopping with our seamless online experience.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="btn-project">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/izzahbatrisyiaazhar/groco.github.io'"
+                >
+                  <i class="devicon-github-original project-btn-icon"></i>
+                  <span class="project-btn-name">Github Repo</span>
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://izzahbatrisyiaazhar.github.io/groco.github.io/'"
+                >
+                  <ion-icon name="desktop" class="project-btn-icon"></ion-icon>
+                  <span class="project-btn-name">Live Demo</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <br /><br />
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container" style="vertical-align: middle">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:izzah.batrisyiaazhar@gmail.com">
+              izzah.batrisyiaazhar@gmail.com
+            </a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/izzah-batrisyia-a110b3274/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills & Tools</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Izzah Batrisyia. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
